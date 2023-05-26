@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1900px;
+  min-height: 100vh;
+}
+.box-L {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.box-content h1 {
+  color: #1775ee;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+}
+.box-content p {
+  padding: 10px;
+  margin: 0 10px;
+}
+.change {
+  position: relative;
+  top: 30px;
+  display: flex;
+  margin: 10px 0;
+}
+.change .boxImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  background: #eee;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.change .boxImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.change .boxImg a i {
+  font-size: 2.5em;
+  color: #1877f2;
+}
+.box-R {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+}
+.box-form {
+  width: 500px;
+  height: 500px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px #333e;
+  border-radius: 15px;
+}
+form .top {
+  display: flex;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+form .top input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(150, 149, 149);
+}
+form .center {
+  display: flex;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+form .center input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(150, 149, 149);
+}
+
+form button {
+  padding: 10px;
+  width: 80%;
+  background: #1877f2;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+button:hover {
+  cursor: pointer;
+}
+p {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+p a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+p a:hover {
+  text-decoration: underline;
+}
+.new {
+  position: relative;
+  top: 50px;
+}
+.new a {
+  padding: 20px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #37a521;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+}

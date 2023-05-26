@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template:
+    "head head head" minmax(250px, auto)
+    "meme section section" 1fr
+    "meme footer footer" 1fr
+    /2fr 1fr 1fr;
+}
+.head {
+  grid-area: head;
+}
+.menu {
+  grid-area: meme;
+}
+.section {
+  grid-area: section;
+}
+.footer {
+  grid-area: footer;
+}
+.grid div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #0f0f;
+  border: 1px solid #333;
+}

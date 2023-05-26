@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid:
+    "nav header header" 100px
+    "nav section section" 100px
+    "footer section section" 100px;
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: nav;
+}
+.item3 {
+  grid-area: section;
+}
+.item4 {
+  grid-area: footer;
+}

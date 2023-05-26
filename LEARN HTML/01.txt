@@ -1,0 +1,47 @@
+#for navigation
+nav {
+  background: #0f0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(17, 18, 18);
+  padding: 30px;
+  font-size: 18px;
+}
+.logo {
+  margin: 10px;
+  font-size: 18px;
+}
+
+:root {
+  --white: #fff;
+  --red: #f00;
+  --yellow: #ff0;
+  --pink: #f0f;
+  --blue: #00f;
+  --sky: #0ff;
+  --green: #0f0;
+  --black: #000;
+}
+:root {
+  --h1: 500;
+  --h2: 400;
+  --h3: 300;
+  --p: 300;
+}
+
+for max-width default
+
+@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 900px)
+@media only screen and (max-width: 500px)
