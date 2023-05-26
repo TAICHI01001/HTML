@@ -1,0 +1,79 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* .grid {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "head head head"
+    "M main R"
+    "M foot foot";
+  gap: 30px;
+  margin: 30px;
+} */
+/* .grid {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "head head head"
+    "M main R"
+    "M foot foot";
+  gap: 30px;
+  margin: 30px;
+} */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "head head head"
+    "M main R"
+    "M foot foot";
+} */
+/* .grid {
+  display: grid;
+  grid-template:
+    "head head head" 1fr
+    "M main R" 1fr
+    "M foot foot" 1fr/1fr 1fr 1fr;
+} */
+/* .item {
+  background: #ee0;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #333;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: head;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: M;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: main;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: R;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: foot;
+} */

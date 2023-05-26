@@ -1,0 +1,43 @@
+/* p {
+  background: orange;
+}
+div p {
+  background: #0f0;
+}
+div > p {
+  background: #0ff;
+}
+div + p {
+  background: #f0f;
+}
+/* div ~ p {
+  background: #00f;
+} */
+/* a {
+  background: #0f0;
+}
+a[target] {
+  background: #ff0;
+  color: black;
+}
+a[target="_blank"] {
+  background: black;
+  color: white;
+}
+a[target="_self"] {
+  background: orange;
+  color: black;
+} */
+/* input[type="email"],
+input[type="text"] {
+  background: #0f0;
+  color: #eee;
+  padding: 15px;
+  border: none;
+}
+input[type="submit"] {
+  background: #0ff;
+  color: #eee;
+  border: none;
+  padding: 15px; 
+} */
